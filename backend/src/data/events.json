@@ -1,0 +1,162 @@
+[
+    {
+        "id": "1",
+        "title": "Community Thanksgiving Potluck",
+        "date": "2025-11-29",
+        "image_url": "https://images.unsplash.com/photo-1574672280600-4accfa5b6f98?w=500",
+        "description": "Join our annual community feast! Bring your favorite dish to share and celebrate gratitude with neighbors. All are welcome to this warm gathering of food and friendship.",
+        "host_id": "1"
+    },
+    {
+        "id": "2",
+        "title": "Solstice Celebration",
+        "date": "2025-12-21",
+        "image_url": "https://images.unsplash.com/photo-1482517967863-00e15c9b44be?w=500",
+        "description": "Welcome the winter solstice with music, meditation, and seasonal ceremonies. Experience the magic of the longest night of the year in community.",
+        "host_id": "2"
+    },
+    {
+        "id": "3",
+        "title": "EventExpo 2026",
+        "date": "2026-04-01",
+        "image_url": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=500",
+        "description": "Discover the future of event planning at EventExpo 2026. Network with industry leaders, explore cutting-edge technologies, and attend inspiring workshops.",
+        "host_id": "3"
+    },
+    {
+        "id": "4",
+        "title": "Critical Mass Bike Ride",
+        "date": "2025-09-25",
+        "image_url": "https://images.unsplash.com/photo-1593259525326-ef1511674267?w=500",
+        "description": "Take back the streets in this monthly community bike ride. Promote cycling awareness and safety while enjoying a scenic tour through the city with fellow cyclists.",
+        "host_id": "4"
+    },
+    {
+        "id": "5",
+        "title": "New Year Celebration",
+        "date": "2026-01-01",
+        "image_url": "https://images.unsplash.com/photo-1521478413868-1bbd982fa4a5?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Celebrate the start of the new year with fireworks, music, and community festivities.",
+        "host_id": "5"
+    },
+    {
+        "id": "6",
+        "title": "Summer Music Festival",
+        "date": "2025-07-15",
+        "image_url": "https://images.unsplash.com/photo-1589553975453-d7e36c7cfbf8?w=500",
+        "description": "Enjoy a day of live music, food trucks, and fun activities at the annual Summer Music Festival.",
+        "host_id": "2"
+    },
+    {
+        "id": "7",
+        "title": "Tech Startup Meetup",
+        "date": "2025-09-15",
+        "image_url": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=500",
+        "description": "Connect with fellow entrepreneurs, developers, and investors. Share ideas, get feedback, and build meaningful relationships in the tech community.",
+        "host_id": "6"
+    },
+    {
+        "id": "8",
+        "title": "Yoga in the Park",
+        "date": "2025-08-08",
+        "image_url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500",
+        "description": "Start your day with a refreshing yoga session in the beautiful city park. All skill levels welcome. Don't forget to bring your mat!",
+        "host_id": "7"
+    },
+    {
+        "id": "9",
+        "title": "Art Gallery Opening",
+        "date": "2025-10-14",
+        "image_url": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=500",
+        "description": "Join us for the opening of 'Urban Perspectives' featuring local artists. Enjoy wine, hors d'oeuvres, and engaging conversations about contemporary art.",
+        "host_id": "8"
+    },
+    {
+        "id": "10",
+        "title": "Cooking Class: Mediterranean Cuisine",
+        "date": "2025-09-28",
+        "image_url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500",
+        "description": "Learn to cook authentic Mediterranean dishes from scratch. Includes ingredients, recipes, and a delicious meal to enjoy together.",
+        "host_id": "9"
+    },
+    {
+        "id": "11",
+        "title": "Book Club: Science Fiction",
+        "date": "2025-08-20",
+        "image_url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=500",
+        "description": "Discuss this month's selection: 'The Three-Body Problem' by Liu Cixin. Coffee and snacks provided. New members always welcome!",
+        "host_id": "10"
+    },
+    {
+        "id": "12",
+        "title": "Photography Workshop",
+        "date": "2025-11-22",
+        "image_url": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+        "description": "Master the basics of digital photography. Learn composition, lighting, and editing techniques. Bring your camera or smartphone.",
+        "host_id": "11"
+    },
+    {
+        "id": "13",
+        "title": "Language Exchange: Spanish/English",
+        "date": "2025-09-10",
+        "image_url": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=500",
+        "description": "Practice Spanish and English in a friendly, conversational setting. All levels welcome. Coffee and light refreshments included.",
+        "host_id": "12"
+    },
+    {
+        "id": "14",
+        "title": "Board Game Night",
+        "date": "2025-10-08",
+        "image_url": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?w=500",
+        "description": "Join us for an evening of strategy, fun, and friendly competition. We'll have a variety of games for all skill levels.",
+        "host_id": "13"
+    },
+    {
+        "id": "15",
+        "title": "Hiking Adventure",
+        "date": "2025-07-12",
+        "image_url": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=500",
+        "description": "Explore the beautiful mountain trails with our experienced guide. Moderate difficulty, 4-hour hike with stunning views.",
+        "host_id": "14"
+    },
+    {
+        "id": "16",
+        "title": "Jazz Night at the Lounge",
+        "date": "2025-09-25",
+        "image_url": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500",
+        "description": "Enjoy live jazz music in an intimate setting. Featuring local musicians and craft cocktails. Reservations recommended.",
+        "host_id": "15"
+    },
+    {
+        "id": "17",
+        "title": "Volunteer Day: Community Garden",
+        "date": "2025-10-15",
+        "image_url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=500",
+        "description": "Help maintain our community garden. Tasks include planting, weeding, and general maintenance. Tools provided, bring work gloves.",
+        "host_id": "16"
+    },
+    {
+        "id": "18",
+        "title": "Film Screening: Documentary Night",
+        "date": "2025-08-15",
+        "image_url": "https://images.unsplash.com/photo-1489599835382-957593cb2371?w=500",
+        "description": "Watch and discuss thought-provoking documentaries about environmental conservation. Popcorn and refreshments provided.",
+        "host_id": "17"
+    },
+    {
+        "id": "19",
+        "title": "Dance Workshop: Salsa Basics",
+        "date": "2025-09-18",
+        "image_url": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=500",
+        "description": "Learn the fundamentals of salsa dancing in a fun, beginner-friendly environment. No partner required, comfortable shoes recommended.",
+        "host_id": "18"
+    },
+    {
+        "id": "20",
+        "title": "Craft Fair & Market",
+        "date": "2025-12-05",
+        "image_url": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=500",
+        "description": "Support local artisans and discover unique handmade goods. Food trucks, live music, and family-friendly activities throughout the day.",
+        "host_id": "19"
+    }
+]

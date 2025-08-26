@@ -1,0 +1,81 @@
+/* Layout */
+body>header,
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav[aria-label="breadcrumb"] {
+  --pico-nav-breadcrumb-divider: '/';
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Parkinsans';
+}
+
+header h1,
+header h2,
+header h3,
+header h4 {
+  color: var(--pico-primary);
+}
+
+header svg {
+  color: var(--pico-contrast);
+}
+
+body>header {
+  padding-bottom: 0px;
+}
+
+svg {
+  color: inherit;
+}
+
+
+footer svg {
+  height: 1em;
+  width: auto;
+}
+
+section.events [role="group"] {
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .5em;
+}
+
+article.event {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: var(--pico-border-radius);
+}
+
+
+article.event main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 100%;
+}
+
+article.event img {
+  object-fit: cover;
+  width: 100%;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  border-radius: inherit;
+}
+
+article.event h4 {
+  color: var(--pico-primary);
+  min-height: 2em;
+}
