@@ -46,15 +46,14 @@ export const setupForm = (form) => {
     });
 
     if (btn) {
-        const inputs = form.querySelectorAll('input.rsvp-email');
-        for (let input of inputs) {
-            input.addEventListener('input', () => {
-                if (!btn.textContent.startsWith('Submit')) {
-                    btn.removeAttribute('disabled');
-                    btn.textContent = 'Submit RSVP';
-                }
-            });
-        }
+        const emailInput = form.querySelector('input.rsvp-email');
+        emailInput.addEventListener('input', () => {
+            if (btn.textContent !== 'Submit RSVP') {
+                btn.removeAttribute('disabled');
+                btn.textContent = 'Submit RSVP';
+            }
+        });
+
     }
 };
 

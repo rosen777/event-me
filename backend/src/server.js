@@ -37,4 +37,4 @@ app.use((_req, res) => {
 app.listen(PORT, () => {
     console.log(`\nServer listening at http://localhost:${PORT}`);
     console.log(`Server running in ${NODE_ENV} mode\n`);
-})
+});

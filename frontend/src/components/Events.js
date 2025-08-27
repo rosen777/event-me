@@ -1,6 +1,6 @@
 import { Calendar } from './Icons.js';
 
-const API_URL = '/api';
+const API_URL = import.meta.env.VITE_API_URL;
 
 const loadEventsData = async () => {
   try {
@@ -30,11 +30,11 @@ export const EventModal = (event) => {
             action="${API_URL}/events/${event.id}/rsvp"
             method="POST"
         >
-          <label for="rsvp-name">Name:
-            <input type="text" class="rsvp-name" name="name" required />
+          <label for="rsvp-name-${event.id}">Name:
+            <input type="text" id="rsvp-name-${event.id}" class="rsvp-name" name="name" required />
           </label>
-          <label for="rsvp-email">Email:
-          <input type="email" class="rsvp-email" name="email" required />
+          <label for="rsvp-email-${event.id}">Email:
+            <input type="email" id="rsvp-email-${event.id}" class="rsvp-email" name="email" required />
           </label>
         
         </form>
@@ -69,8 +69,7 @@ export const EventCard = (e) => {
     </main>
     <footer>
         <span>
-            ${e.rsvps.length} 
-            ${isPast ? 'went' : 'going'}
+            ${e.rsvps?.length || 0} ${isPast ? 'went' : 'going'}
         </span>
         ${!isPast ? `
             <button role="button" data-target="modal-event-${e.id}" class="toggle-modal"

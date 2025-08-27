@@ -1,10 +1,8 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-
-    server: {
-        proxy: {
-            '/api': 'http://localhost:3000/api',
-        }
+    test: {
+        globals: true,
+        include: ['test/**/*.{test,spec}.{js,ts}'],
     }
 })
